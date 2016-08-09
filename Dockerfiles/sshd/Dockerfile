@@ -20,8 +20,9 @@ RUN yum install -y        \
 ADD ./etc/ssh/   /etc/ssh
 ADD ./root/.ssh/ /root/.ssh
 
-RUN chmod 700 /root/.ssh   && \
-    chmod 600 /root/.ssh/* && \
+RUN chmod 600 /etc/ssh/id_rsa* && \
+    chmod 700 /root/.ssh       && \
+    chmod 600 /root/.ssh/*     && \
     echo root:root | chpasswd
 
 RUN touch /var/log/lastlog      && \
