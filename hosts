@@ -1,0 +1,8 @@
+# file: hosts
+
+[group1]
+ansible-pg-1
+
+[group2]
+ansible-pg-2
+ansible-pg-3

@@ -1,0 +1,11 @@
+---
+galaxy_info:
+  author: Enrique Fernandez
+  description: A dummy Ansible role
+  license: MIT
+  min_ansible_version: 1.2
+  platforms:
+  - name: EL
+    versions:
+    - 7
+dependencies: []

@@ -1,0 +1,4 @@
+---
+# tasks file for file
+- name: Create file from template
+  template: src=hi.txt.j2 dest={{ base_dir }}/{{ filename }}

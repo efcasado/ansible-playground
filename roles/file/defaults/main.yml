@@ -1,0 +1,5 @@
+---
+# defaults file for file
+base_dir: /tmp/
+filename: hi.txt
+message:  Hello!

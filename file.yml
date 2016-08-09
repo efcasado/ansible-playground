@@ -1,0 +1,10 @@
+---
+- hosts: group1
+  sudo: yes
+  roles:
+    - { role: "file" }
+
+- hosts: group2
+  sudo: yes
+  roles:
+    - { role: "file" }
